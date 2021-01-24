@@ -1,11 +1,19 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- The head contains the style sheet to be referenced throughout the page (style.css) and also the page title
+    that will be seen on the tab when the page is pulled up on the web browser. -->
 <head>
     <meta charset="UTF-8" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-    <title>website</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/CodeRefractor.css">
+    <title>Horiseon</title>
 </head>
+
+<!-- This is the header section of the page where you see the "Horiseon" title on the top left, as well as the 
+    different site contents: Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
+
+    When each of these topics are clicked, they are linked to the main content of the page and take the user directly
+    to the spot on the page where the respective information is located. -->
 
 <header class="header">
     <h1>Hori<span class="seo">seo</span>n</h1>
@@ -27,6 +35,14 @@
 <main>
     <div class="hero"></div>
     
+    <!-- This section below contains the individual sections on the page with the information in regards to the 
+        Search Engine Optimization, Online Reputation Management, and Social Media Marketing topics. This is the part
+        of the main content of the page (seen when scrolling below the main photo at the top of the page).
+
+        This information is what the content in the "header" section links to when clicked. I.E. When you click
+        the "Search Engine Optimization" at the top of the page, you are taken to this section to the respective
+        "Search Engine Optimization" section/content.-->
+
     <section class="content">
         <div id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization photo" class="float-left" />
@@ -52,23 +68,23 @@
     </section>
 
 
-
+    <!-- This section contains the information seen on the right-hand-side of the page. -->
     <section class="benefits">  
-        <div class="benefit-lead">
+        <div>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="lead generation symbol" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
         </div>
-        <div class="benefit-brand">
+        <div>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="brand awareness symbol" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
         </div>
-        <div class="benefit-cost">
+        <div>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="cost management symbol" />
             <p>
@@ -79,7 +95,7 @@
 
 </main>    
     
-
+<!-- Below contains the footer of the page and references the "footer" style in the respective style.css file. -->
 <footer class="footer">
     <h2>Made with ❤️️ by Horiseon</h2>
     <p>
