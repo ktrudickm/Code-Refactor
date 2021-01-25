@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!-- The head contains the style sheet to be referenced throughout the page (style.css) and also the page title
+    <!-- The head contains the style sheet to be referenced throughout the page (CodeRefractor.css) and also the page title
     that will be seen on the tab when the page is pulled up on the web browser. -->
 <head>
     <meta charset="UTF-8" />
@@ -9,15 +9,15 @@
     <title>Horiseon</title>
 </head>
 
-<!-- This is the header section of the page where you see the "Horiseon" title on the top left, as well as the 
+    <!-- This is the header section of the page where you see the "Horiseon" title on the top left, as well as the 
     different site contents: Search Engine Optimization, Online Reputation Management, and Social Media Marketing.
 
     When each of these topics are clicked, they are linked to the main content of the page and take the user directly
-    to the spot on the page where the respective information is located. -->
+    to the spot on the page where the respective information is located, which is why they are under <nav>. -->
 
 <header class="header">
     <h1>Hori<span class="seo">seo</span>n</h1>
-    <div>
+    <nav>
         <ul>
             <li>
                 <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -29,79 +29,88 @@
                 <a href="#social-media-marketing">Social Media Marketing</a>
             </li>
         </ul>
-    </div>
-</header>    
+    </nav>
+</header>   
 
-<main>
-    <div class="hero"></div>
-    
-    <!-- This section below contains the individual sections on the page with the information in regards to the 
+    <!-- Below inserts the photo that you see on the background of the page, above the body content. All it contains is the class hero which, within the css file, references a photo 
+    URL for the background-image which is what you see.-->
+
+<div class="hero"></div>
+
+
+    <!-- Below lays out the body of the page where all of the information exists. Each individual section (there 
+    are two of them - main and aside) contains specific information related to their respective sections. -->
+
+<body>
+
+    <!-- This section below (main) contains the main content on the page with the information in regards to the 
         Search Engine Optimization, Online Reputation Management, and Social Media Marketing topics. This is the part
-        of the main content of the page (seen when scrolling below the main photo at the top of the page).
+        of the main content of the page (seen when scrolling below the main photo at the top of the page and on the center/left).
 
         This information is what the content in the "header" section links to when clicked. I.E. When you click
         the "Search Engine Optimization" at the top of the page, you are taken to this section to the respective
         "Search Engine Optimization" section/content.-->
 
-    <section class="content">
-        <div id="search-engine-optimization">
+    <main class="content">
+        <section id="search-engine-optimization">
             <img src="./assets/images/search-engine-optimization.jpg" alt="search engine optimization photo" class="float-left" />
             <h2>Search Engine Optimization</h2>
             <p>
                 The dominance of mobile internet use means that users are searching for the right business as they travel, shop, or sit on their couch at home. Search Engine Optimization (SEO) allows you to increase your visibility and find the right customers for your business.
             </p>
-        </div>
-        <div id="online-reputation-management">
+        </section>
+        <section id="online-reputation-management">
             <img src="./assets/images/online-reputation-management.jpg" alt="online reputation management photo" class="float-right" />
             <h2>Online Reputation Management</h2>
             <p>
                 The web is full of opinions, and some of these can be negative. Social media allows anyone with an internet connection to say whatever they want about your business. Online Reputation Management gives you the control over what potential customers see when they search for your business.
             </p>
-        </div>
-        <div id="social-media-marketing">
+        </section>
+        <section id="social-media-marketing">
             <img src="./assets/images/social-media-marketing.jpg" alt="social media marketing photo" class="float-left" />
             <h2>Social Media Marketing</h2>
             <p>
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
-        </div>
-    </section>
+        </section>
+    </main>
 
 
-    <!-- This section contains the information seen on the right-hand-side of the page. -->
-    <section class="benefits">  
-        <div>
+    <!-- This section contains the information seen on the right-hand-side of the page, hence the <aside>. There are three sections within this <aside>. -->
+    <aside class="benefits">  
+        <section>
             <h3>Lead Generation</h3>
             <img src="./assets/images/lead-generation.png" alt="lead generation symbol" />
             <p>
                 Inbound strategies for lead generation require less work for your business, bringing customers directly to your website.
             </p>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3>Brand Awareness</h3>
             <img src="./assets/images/brand-awareness.png" alt="brand awareness symbol" />
             <p>
                 Users find your business through paid and organic searches, increasing the search ranking and visibility for your business.
             </p>
-        </div>
-        <div>
+        </section>
+        <section>
             <h3>Cost Management</h3>
             <img src="./assets/images/cost-management.png" alt="cost management symbol" />
             <p>
                 As the search ranking for your business increases, your advertising costs decrease, and you no longer need to advertise your page.
             </p>
-        </div>
-    </section>    
+        </section>
+    </aside>    
 
-</main>    
     
-<!-- Below contains the footer of the page and references the "footer" style in the respective style.css file. -->
-<footer class="footer">
-    <h2>Made with ❤️️ by Horiseon</h2>
-    <p>
-        &copy; 2019 Horiseon Social Solution Services, Inc.
-    </p>
-</footer>
+    
+    <!-- Below contains the footer of the page and references the "footer" style in the respective CodeRefractor.css file. -->
+    <footer class="footer">
+        <h4>Made with ❤️️ by Horiseon</h4>
+        <p>
+            &copy; 2019 Horiseon Social Solution Services, Inc.
+        </p>
+    </footer>
 
+</body>
 
 </html>
