@@ -63,8 +63,9 @@ This was done for multiple classes within the CodeRefractor.css in order to cons
 
 ## Credits
 
-* The following resources were referenced during the project process:
-* W3Schools - [HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp "HTML Accessibility") 
+The following resources were referenced during the project process:
+
+* W3Schools - [HTML Accessibility](https://www.w3schools.com/html/html_accessibility.asp "HTML Accessibility")
 * W3Schools - [HTML Attributes](https://www.w3schools.com/tags/ref_attributes.asp "HTML Attributes") 
 * W3Schools - [CSS Toutorials](https://www.w3schools.com/css/default.asp "CSS Toutorials")
 
