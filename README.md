@@ -15,26 +15,26 @@ Continuing on, the structure of the HTML file was not clear. For example, the fo
 
 See below for the before/after of the header, body, and body elements, respectively:
 
-Header content before:
+### Header content before:
 ![header-before](./Assets/images/headerbefore.png)
 
-Header content after:
+### Header content after:
 ![header-after](./Assets/images/headerafter.png)
 
 Above in the before, you can see that the header is in the body and it has a div attribute as opposed to a header attribute. In the after, the header is under a header attribute and is before the body.
 
-Body content before:
+### Body content before:
 ![body-before](./Assets/images/bodyafter.png)
 
-Body content after:
+### Body content after:
 ![body-after](./Assets/images/bodyafter.png)
 
 You can see in the above screenshots that before the html was cleaned up, almost everything is under a div attribute, making it confusing as to what the content really is in relation to the page. The after screenshot shows this issue cleaned up to make the portion being shown under the attribute of main, since it is the main content of the page, and then each item within the main attribute, is under a section attribute since they are each different sections within the main content.
 
-Footer content before: 
+### Footer content before: 
 ![footer-before](./Assets/images/footerafter.png)
 
-Footer content after:
+### Footer content after:
 ![footer-after](./Assets/images/footerafter.png)
 
 The footer before is under a div attribute. In order to make this meet accessibility standards and to make it more readable/understandable to the reader, the div was changed to a footer attribute, which you can see in the after photo.
