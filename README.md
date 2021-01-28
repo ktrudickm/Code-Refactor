@@ -16,26 +16,26 @@ Continuing on, the structure of the HTML file was not clear. For example, the fo
 See below for the before/after of the header, body, and body elements, respectively:
 
 ### Header content before:
-![header-before](./Assets/images/headerbefore.png)
+![header-before](./Assets/images/headerbefore.png =150px)
 
 ### Header content after:
-![header-after](./Assets/images/headerafter.png)
+![header-after](./Assets/images/headerafter.png =150px)
 
 Above in the before, you can see that the header is in the body and it has a div attribute as opposed to a header attribute. In the after, the header is under a header attribute and is before the body.
 
 ### Body content before:
-![body-before](./Assets/images/bodyafter.png)
+![body-before](./Assets/images/bodyafter.png =150px)
 
 ### Body content after:
-![body-after](./Assets/images/bodyafter.png)
+![body-after](./Assets/images/bodyafter.png =150px)
 
 You can see in the above screenshots that before the html was cleaned up, almost everything is under a div attribute, making it confusing as to what the content really is in relation to the page. The after screenshot shows this issue cleaned up to make the portion being shown under the attribute of main, since it is the main content of the page, and then each item within the main attribute, is under a section attribute since they are each different sections within the main content.
 
 ### Footer content before: 
-![footer-before](./Assets/images/footerafter.png)
+![footer-before](./Assets/images/footerafter.png =150px)
 
 ### Footer content after:
-![footer-after](./Assets/images/footerafter.png)
+![footer-after](./Assets/images/footerafter.png =150px)
 
 The footer before is under a div attribute. In order to make this meet accessibility standards and to make it more readable/understandable to the reader, the div was changed to a footer attribute, which you can see in the after photo.
 
@@ -45,11 +45,11 @@ The css style sheet had multiple areas warranting improvement. There were redund
 
 For example, for the "aside" attribute in the html, each individual section had its own class in the CSS file, even though they all had the same attributes. See below for the changes made, and note that the commented out classes were the original redundant ones, with the benefits section being the updated one:
 
-![class-consolidating](./Assets/images/class-consolidating.png)
+![class-consolidating](./Assets/images/class-consolidating.png =150px)
 
 Because the parent attribute "aside" specified a class of benefits, and because benefits was already a class in the CSS, these three classes could be consolidated into one class since they each fell under the same parent attribute of "aside" under the attribute of "section":
 
-![html aside](./Assets/images/aside.png)
+![html aside](./Assets/images/aside.png =150px)
 
 This was done for multiple classes within the CodeRefractor.css in order to consolidate and clean up everything so that the redundancy was eliminated. Below you can see the redundant styles commented out
 and a general one created above it to encompass all three of them:
