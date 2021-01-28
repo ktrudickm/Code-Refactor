@@ -46,6 +46,12 @@ You can see in the above screenshots that before the html was cleaned up, almost
 
 The footer before is under a *div* attribute. In order to make this meet accessibility standards and to make it more readable/understandable to the reader, the *div* was changed to a *footer* attribute, which you can see in the after photo.
 
+Along with those previously mentioned above, additional adjustments had to be made including:
+
+* Changing the footer *h2* element to an *h4* since the previous *h* attribute used was an *h3* in the *aside* section. This adjustment to the next heading attribute number follows proper semantics.
+
+* 
+
 ## CSS Accessibility Modifications & Findings
 
 The css style sheet had multiple areas warranting improvement. There were redundant style classes created, just under different names. These were able to be consolidated into one based on what the style was trying to do.
