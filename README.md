@@ -103,7 +103,11 @@ The following resources were referenced during the project process:
 * W3Schools - [HTML Attributes](https://www.w3schools.com/tags/ref_attributes.asp "HTML Attributes") 
 * W3Schools - [CSS Toutorials](https://www.w3schools.com/css/default.asp "CSS Toutorials")
 
+## Links
 
+GitHub Repository - [Homework 1 Repository](https://www.w3schools.com/html/html_accessibility.asp "Homework 1 Repository")
+
+GitHub Pages - [Homework 1 GitHub Pages Link](https://www.w3schools.com/html/html_accessibility.asp "Homework 1 GitHub Pages Link")
 
 
 
