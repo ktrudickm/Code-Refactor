@@ -50,7 +50,6 @@ Along with those previously mentioned above, additional adjustments had to be ma
 
 * Changing the footer *h2* element to an *h4* since the previous *h* element used was an *h3* in the *aside* section. This adjustment to the next heading element number follows proper semantics.
 
-* 
 
 ## CSS Accessibility Modifications & Findings
 
@@ -65,6 +64,8 @@ Because the parent element *aside* specified a class of benefits, and because be
 ![html aside](./Assets/images/aside.png)
 
 This was done for multiple classes within the CodeRefractor.css in order to consolidate and clean up everything so that the redundancy was eliminated.
+
+The order of the classes in the css was also inconsistent. For example, for the class .content, the initial .content class was placed at the top of the style.css, and then the ".content section img", ".content section", etc. were further down the page after unrelated classes. Grouping the related classes together makes the style.css more understandable. 
 
 The final style.css and index.html codes looked both cleaner, more concise, and easier to follow since they were adjusted to be more accessible and redundancy was eliminated.
 
