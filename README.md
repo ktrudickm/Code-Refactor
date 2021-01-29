@@ -105,9 +105,9 @@ The following resources were referenced during the project process:
 
 ## Links
 
-GitHub Repository - [Homework 1 Repository](https://www.w3schools.com/html/html_accessibility.asp "Homework 1 Repository")
+GitHub Repository - [Homework 1 Repository](https://github.com/ktrudickm/Homework1 "Homework 1 Repository")
 
-GitHub Pages - [Homework 1 GitHub Pages Link](https://www.w3schools.com/html/html_accessibility.asp "Homework 1 GitHub Pages Link")
+GitHub Pages - [Homework 1 GitHub Pages Link](https://ktrudickm.github.io/Homework1/ "Homework 1 GitHub Pages Link")
 
 
 
