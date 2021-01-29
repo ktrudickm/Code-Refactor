@@ -28,6 +28,10 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 ```
 
+The following image shows the web application's appearance and functionality:
+
+![code refactor demo](./Assets/01-html-css-git-homework-demo.png)
+
 ## HTML Accessibility Modifications & Findings
 
 The first issue noticed was the Search Engine Optimization link at the top of the page did not direct the user to the respective spot on the page where that information existed when clicked. This was because the content it was trying to link to had an element that did not have an id attribute called out, only a class attribute. 
